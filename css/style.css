@@ -150,7 +150,6 @@ td {
   align-items: center;
 }
 
-
 .asociate .asociate-formulario form select {
   margin-top: 20px;
   background: transparent;
@@ -159,7 +158,7 @@ td {
   color: #f5e076;
   text-align: center;
 }
-
+.login form input,
 .asociate .asociate-formulario form input {
   margin-top: 20px;
   background: transparent;
@@ -175,13 +174,13 @@ td {
   color: #f5e076;
 }
 
-
+.login #login-boton,
 .asociate .asociate-formulario #asociate-boton {
-  margin-top: 20px ;
+  margin-top: 20px;
   margin-left: 100px;
   border-radius: 15px;
   color: black;
-  background-color:#f5e076;
+  background-color: #f5e076;
 }
 
 .comollegar {
@@ -217,23 +216,16 @@ td {
 }
 
 .login {
-  color: #f5e076;
-  font-family: "Montserrat", sans-serif;
-  height: calc(100vh-100);
+  display: flex;
+justify-content: center;
+margin: 100px 150px 150px 150px;
 }
 
-.login form div label {
-  margin: 40px 40px 40px 40px;
-  color: #f5e076;
-  text-align: justify;
-  font-family: "Montserrat", sans-serif;
+.login #login-boton{
+  margin: 50px 0px 30px 0px;
 }
-
-.login #login-boton {
-  margin: 40px 40px 40px 40px;
-}
-
 /* --------- FOOTER ---------*/
+
 
 .pie {
   padding-left: 50px;
@@ -247,7 +239,7 @@ td {
   grid-template-areas: "pie-nombre pie-contacto pie-redes";
 }
 
-.pie .pie-nonbre {
+.pie .pie-nombre {
   grid-area: pie-nombre;
 }
 .pie .pie-contacto div {
