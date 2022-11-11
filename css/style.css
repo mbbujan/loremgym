@@ -20,6 +20,7 @@ body {
   background-color: black;
 }
 
+
 .menu a img {
   height: 150px;
 }
@@ -27,7 +28,9 @@ body {
 .menu nav ul {
   display: flex;
   list-style: none;
+  /*border-bottom: 1px solid #7C7C7C;*/
 }
+
 
 .menu nav ul li {
   margin: 20px;
@@ -38,7 +41,29 @@ body {
   color: #ba9593;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
+
+.menu nav ul li a:before{
+  content: ' ';
+  border-bottom: 2px solid greenyellow;
+  position: absolute;
+  bottom: -10px;
+  width: 10%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.menu nav ul li a.menu-activo::before,
+.menu nav ul li a:hover::before{
+  opacity: 1;
+  width: 70%;
+}
+.menu nav ul li a.menu-activo,
+.menu nav ul li a:hover{
+  color: greenyellow;
+}
+
 /* --------- MAIN ---------*/
 .hero {
   font-size: 20px;
@@ -244,10 +269,16 @@ td {
   background-color: black;
   display: grid;
   grid-template-columns: 2fr 2.5fr 1fr;
+  grid-template-areas: "pie-nombre pie-contacto pie-redes";
+}
+
+.pie .pie-nonbre {
+  grid-area: pie-nombre;
 }
 .pie .pie-contacto div {
   display: flex;
   justify-content: flex-start;
+  grid-area: pie-contacto;
 }
 
 .pie .pie-contacto p {
@@ -256,6 +287,10 @@ td {
 .pie .pie-contacto img {
   width: 3%;
 }
+.pie .pie-redes {
+  grid-area: pie-redes;
+}
+
 .pie .pie-redes a img {
   width: 15%;
 }
