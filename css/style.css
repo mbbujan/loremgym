@@ -201,31 +201,39 @@ td {
   color: #f5e076;
   font-family: "Montserrat", sans-serif;
   height: calc(100vh-100);
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(6,1fr);
+ gap:10px; 
+
 }
 
 .galeria h2 {
   text-align: center;
+  grid-column: 1/7;
 }
 
-.galeria h3 {
+.galeria section  {
   font-size: 15px;
+  grid-column: 1/7;
 }
 
-.galeria section div {
-  display: flex;
+.galeria section img{
+  padding: 20px;
+
 }
+
 
 .login {
   display: flex;
-justify-content: center;
-margin: 100px 150px 150px 150px;
+  justify-content: center;
+  margin: 100px 150px 150px 150px;
 }
 
-.login #login-boton{
+.login #login-boton {
   margin: 50px 0px 30px 0px;
 }
 /* --------- FOOTER ---------*/
-
 
 .pie {
   padding-left: 50px;
