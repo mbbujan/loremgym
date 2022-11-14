@@ -27,7 +27,6 @@ body {
 .menu nav ul {
   display: flex;
   list-style: none;
-  /*border-bottom: 1px solid #7C7C7C;*/
 }
 
 .menu nav ul li {
@@ -203,9 +202,8 @@ td {
   height: calc(100vh-100);
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(6,1fr);
- gap:10px; 
-
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
 }
 
 .galeria h2 {
@@ -213,16 +211,14 @@ td {
   grid-column: 1/7;
 }
 
-.galeria section  {
+.galeria section {
   font-size: 15px;
   grid-column: 1/7;
 }
 
-.galeria section img{
+.galeria section img {
   padding: 20px;
-
 }
-
 
 .login {
   display: flex;
@@ -268,4 +264,44 @@ td {
 
 .pie .pie-redes a img {
   width: 15%;
+}
+
+/* --------- MQ ---------*/
+
+@media (max-width: 768px) {
+  .menu {
+    padding: 2px;
+  }
+  .menu a img {
+    height: 80px;
+  }
+  .menu nav ul li a {
+    font-size: 10px;
+  }
+  .menu nav ul li {
+    margin: 5px;
+  }
+
+main{
+  font-size: 10px;
+}
+
+.pie {
+  padding-left: 20px;
+  padding-top: auto;
+  margin-top: 20px;
+font-size: 10px;
+}
+
+
+.pie .pie-contacto p {
+  margin-left: 10px;
+}
+.pie .pie-contacto img {
+  width: 3%;
+}
+
+.pie .pie-redes a img {
+  width: 15%;
+}
 }
