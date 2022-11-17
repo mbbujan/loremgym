@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Belen</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on **Lorem Impsum Gym**
-Sitio web de un gimnasio, para la entrega del curso de Desarrollo WEB de CoderHouse-Comision 33130
+- 🔭 I’m currently working on **Lorem Impsum Gym**: 
+sitio web de un gimnasio genérico, para la entrega del curso de Desarrollo WEB de CoderHouse-Comision 33130
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
