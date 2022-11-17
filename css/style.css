@@ -179,7 +179,7 @@ td {
   margin-left: 100px;
   border-radius: 15px;
   color: black;
-  background-color: #f5e076;
+  background-color: whitesmoke;
 }
 
 .comollegar {
@@ -216,9 +216,13 @@ td {
   grid-column: 1/7;
 }
 
-.galeria section img {
-  padding: 20px;
+.galeria section div img {
+  margin: 20px;
+  transition: 2s;
 }
+.galeria section div img:hover{
+ transform: scale(1.1);
+} 
 
 .login {
   display: flex;
@@ -228,7 +232,14 @@ td {
 
 .login #login-boton {
   margin: 50px 0px 30px 0px;
+  transition: 1s ease-in;
 }
+
+.login #login-boton:hover{
+  background-color: greenyellow;
+}
+
+
 /* --------- FOOTER ---------*/
 
 .pie {
@@ -282,26 +293,25 @@ td {
     margin: 5px;
   }
 
-main{
-  font-size: 10px;
-}
+  main {
+    font-size: 10px;
+  }
 
-.pie {
-  padding-left: 20px;
-  padding-top: auto;
-  margin-top: 20px;
-font-size: 10px;
-}
+  .pie {
+    padding-left: 20px;
+    padding-top: auto;
+    margin-top: 20px;
+    font-size: 10px;
+  }
 
+  .pie .pie-contacto p {
+    margin-left: 10px;
+  }
+  .pie .pie-contacto img {
+    width: 3%;
+  }
 
-.pie .pie-contacto p {
-  margin-left: 10px;
-}
-.pie .pie-contacto img {
-  width: 3%;
-}
-
-.pie .pie-redes a img {
-  width: 15%;
-}
+  .pie .pie-redes a img {
+    width: 15%;
+  }
 }
