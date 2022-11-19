@@ -17,31 +17,35 @@ body {
   padding: 5px;
   position: sticky;
   top: 0;
+
   background-color: black;
 }
 
-.menu a img {
+
+
+.menu .menu-logo img {
   height: 150px;
 }
 
-.menu nav ul {
+.menu .menu-opciones {
   display: flex;
   list-style: none;
 }
 
-.menu nav ul li {
+.menu .menu-opciones li {
   margin: 20px;
 }
 
-.menu nav ul li a {
+.menu .menu-opciones li a {
   text-decoration: none;
   color: #ba9593;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   position: relative;
+
 }
 
-.menu nav ul li a:before {
+.menu .menu-opciones li a:before {
   content: " ";
   border-bottom: 2px solid greenyellow;
   position: absolute;
@@ -51,15 +55,12 @@ body {
   transition: 1s;
 }
 
-.menu nav ul li a.menu-activo::before,
-.menu nav ul li a:hover::before {
+.menu .menu-opciones li a.menu-activo::before,
+.menu .menu-opciones li a:hover::before {
   opacity: 1;
   width: 70%;
 }
-.menu nav ul li a.menu-activo,
-.menu nav ul li a:hover {
-  color: greenyellow;
-}
+
 
 /* --------- MAIN ---------*/
 .hero {
@@ -206,11 +207,14 @@ td {
   gap: 10px;
 }
 
-.galeria h2 {
+.galeria h2 {  
   text-align: center;
   grid-column: 1/7;
 }
 
+.galeria h3{
+  margin-left: 40px;
+}
 .galeria section {
   font-size: 15px;
   grid-column: 1/7;
@@ -279,36 +283,19 @@ td {
 
 /* --------- MQ ---------*/
 
-@media (max-width: 768px) {
-  .menu {
-    padding: 2px;
-  }
-  .menu a img {
-    height: 80px;
-  }
-  .menu nav ul li a {
-    font-size: 10px;
-  }
-  .menu nav ul li {
-    margin: 5px;
-  }
-
-  main {
-    font-size: 10px;
-  }
-
+@media (max-width: 500px) {
   .pie {
     padding-left: 20px;
     padding-top: auto;
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 5px;
   }
 
   .pie .pie-contacto p {
     margin-left: 10px;
   }
   .pie .pie-contacto img {
-    width: 3%;
+    width: 13%;
   }
 
   .pie .pie-redes a img {

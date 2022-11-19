@@ -1,69 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Lorem Ipsum Gym - Login</title>
-</head>
-<body>
-      <header class="menu">
-        <a href="../index.html"><img src="../img/logo.png" alt="Logo Empresa"></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./horarios.html">HORARIOS</a></li>
-                <li><a href="./asociate.html">ASOCIATE</a></li>
-                <li><a href="./comollegar.html">COMO LLEGAR</a></li>
-                <li><a href="./galeria.html">GALERIA</a></li>
-                <li><a href="./login.html" class="menu-activo">LOG IN</a></li>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark menu">
+        <div class="container-fluid menu-logo">
+          <a href="../index.html"
+            ><img src="../img/logo.png" alt="Logo Empresa"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-opciones">
+              <li>
+                <a class="nav-link active menu-activo" href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" href="./horarios.html">HORARIOS</a>
+              </li>
+              <li>
+                <a class="nav-link active" href="./asociate.html">ASOCIATE</a>
+              </li>
+              <li>
+                <a class="nav-link active" href="./comollegar.html"
+                  >COMO LLEGAR</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./galeria.html"
+                  >GALERIA</a
+                >
+              </li>
+              <li><a class="nav-link active" href="./login.html">LOG IN</a></li>
             </ul>
-       </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-   <main>
-        <section class="login">
-            <form action="" method="" enctype="">
-                <div>
-                    <input type="email" name="mail" placeholder="Email " required>
-                </div>
-                <div>
-                    <input type="password" name="contrasenia" placeholder="Contraseña" required>
-                </div>
-                <input id="login-boton" type="submit" value="Ingresar">
-            </form>
-        </section>        
+    <main>
+      <section class="login">
+        <form action="" method="" enctype="">
+          <div>
+            <input type="email" name="mail" placeholder="Email " required />
+          </div>
+          <div>
+            <input
+              type="password"
+              name="contrasenia"
+              placeholder="Contraseña"
+              required
+            />
+          </div>
+          <input id="login-boton" type="submit" value="Ingresar" />
+        </form>
+      </section>
     </main>
     <footer class="pie">
+      <div>
+        <h2>LOREM IPSUM GYM</h2>
+      </div>
+      <div class="pie-contacto">
         <div>
-          <h2>LOREM IPSUM GYM</h2>
+          <img src="../img/abierto.png" alt="Horarios Apertura" />
+          <p>L a V de 7 a 21hs | S y D de 9 a 14hs</p>
         </div>
-        <div class="pie-contacto">
-          <div>
-            <img src="../img/abierto.png" alt="Horarios Apertura" />
-            <p>L a V de 7 a 21hs | S y D de 9 a 14hs</p>
-          </div>
-          <div>
-            <img src="../img/tel.png" alt="Telefono" />
-            <p>011 1234 5678</p>
-          </div>
-          <div>
-            <img src="../img/ubicacion.png" alt="Direccion" />
-            <p>Arenales 2520 | 1425 Palermo, CABA, Argentina</p>
-          </div>
-          <div>
-            <img src="../img/email.png" alt="Mail" />
-            <p>comunicate@loremimpsumgym.com.ar</p>
-          </div>
+        <div>
+          <img src="../img/tel.png" alt="Telefono" />
+          <p>011 1234 5678</p>
         </div>
-        <div class="pie-redes">
-          <a href="https://www.instagran.com/" target="_blank"
-            ><img src="../img/instagram.png" alt="Logo Instagram"
-          /></a>
-          <a href="https://www.facebook.com/" target="_blank"
-            ><img src="../img/facebook.png" alt="Logo Facebook"
-          /></a>
+        <div>
+          <img src="../img/ubicacion.png" alt="Direccion" />
+          <p>Arenales 2520 | 1425 Palermo, CABA, Argentina</p>
         </div>
-      </footer>
-</body>
+        <div>
+          <img src="../img/email.png" alt="Mail" />
+          <p>comunicate@loremimpsumgym.com.ar</p>
+        </div>
+      </div>
+      <div class="pie-redes">
+        <a href="https://www.instagran.com/" target="_blank"
+          ><img src="../img/instagram.png" alt="Logo Instagram"
+        /></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="../img/facebook.png" alt="Logo Facebook"
+        /></a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
