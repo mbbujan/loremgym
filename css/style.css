@@ -60,7 +60,7 @@ body {
 /* --------- MAIN ---------*/
 .hero {
   font-size: 10px;
-  color:rgb(247, 227, 147);
+  color: rgb(247, 227, 147);
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -79,7 +79,6 @@ body {
 }
 .horarios h2 {
   text-align: center;
- 
 }
 .horarios .horarios-salones ul {
   margin: 50px;
@@ -88,7 +87,7 @@ body {
 
 .horarios .horarios-salones ul li a {
   text-decoration: none;
-  color:#edaa44;
+  color: #edaa44;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
@@ -301,6 +300,8 @@ td {
   .pie .pie-redes a img {
     width: 20%;
   }
+
+  
 }
 
 @media screen and (max-width: 1020px) {
@@ -308,7 +309,9 @@ td {
     margin: 5px;
   }
   /* No muestro imagen en pantallas chicas */
+
   .asociate .asociate-formulario div img {
     display: none;
   }
+
 }
