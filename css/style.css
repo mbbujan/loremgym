@@ -65,6 +65,7 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
+/*
 .bienvenida {
   width: calc(100vh-164-206);
   display: flex;
@@ -86,7 +87,11 @@ body {
   margin: 40px;
   font-family: "Montserrat", sans-serif;
 }
-
+*/
+.indice-carrousel img{
+width: 600px;
+height: 350px;
+}
 .horarios {
   color: #f5e076;
   margin: 40px;
@@ -222,7 +227,7 @@ td {
   transition: 2s;
   -webkit-box-shadow: 11px 8px 24px 5px rgb(235, 227, 240);
   -moz-box-shadow: 11px 8px 24px 5px rgb(235, 227, 240);
-  box-shadow: 11px 8px 24px 5px rgbargb(235, 227, 240);
+  box-shadow: 11px 8px 24px 5px rgba(235, 227, 240);
 }
 .galeria section div img:hover {
   transform: scale(1.1);
