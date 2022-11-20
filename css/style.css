@@ -17,7 +17,6 @@ body {
   padding: 5px;
   position: sticky;
   top: 0;
-
   background-color: black;
 }
 
@@ -60,56 +59,36 @@ body {
 
 /* --------- MAIN ---------*/
 .hero {
-  font-size: 20px;
-  color: #f5e076;
+  font-size: 10px;
+  color:rgb(247, 227, 147);
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
-/*
-.bienvenida {
-  width: calc(100vh-164-206);
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
-.bienvenida img {
-  width: 40%;
-  padding: 20px;
-  -webkit-box-shadow: 11px 8px 24px 5px rgba(211, 167, 238, 1);
-  -moz-box-shadow: 11px 8px 24px 5px rgba(211, 167, 238, 1);
-  box-shadow: 11px 8px 24px 5px rgba(211, 167, 238, 1);
-}
-
-.bienvenida p {
-  color: #f5e076;
-  text-align: justify;
-  margin: 40px;
-  font-family: "Montserrat", sans-serif;
-}
-*/
-.indice-carrousel img{
-width: 600px;
-height: 350px;
+.indice-carrousel img {
+  width: 600px;
+  height: 350px;
 }
 .horarios {
-  color: #f5e076;
-  margin: 40px;
+  color: rgb(247, 227, 147);
+  margin-top: 10px;
+  margin-left: 20px;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-flow: column wrap;
 }
 .horarios h2 {
   text-align: center;
+ 
 }
 .horarios .horarios-salones ul {
   margin: 50px;
-  display: flex;
   list-style: none;
-  flex-direction: column;
 }
 
 .horarios .horarios-salones ul li a {
   text-decoration: none;
-  color: #f5e076;
+  color:#edaa44;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
@@ -123,7 +102,7 @@ height: 350px;
 th,
 td {
   margin: 10px 50px 10px 50px;
-  border: 1px solid #f5e076;
+  border: 1px solid #edaa44;
 }
 
 .horarios .horarios-grilla table {
@@ -136,11 +115,12 @@ td {
 }
 
 .asociate {
-  color: #f5e076;
+  color: #edaa44;
   font-family: "Montserrat", sans-serif;
 }
 .asociate h2 {
   text-align: center;
+  color: rgb(247, 227, 147);
 }
 .asociate .asociate-formulario {
   display: flex;
@@ -155,7 +135,7 @@ td {
   background: transparent;
   width: 280px;
   height: 35px;
-  color: #f5e076;
+  color: whitesmoke;
   text-align: center;
 }
 
@@ -166,7 +146,6 @@ td {
   /*width: 280px;  */
   width: 80%;
   height: 35px;
-  color: #f5e076;
   text-align: center;
 }
 
@@ -174,7 +153,7 @@ td {
   margin-top: 20px;
   margin-left: 100px;
   background: transparent;
-  color: #f5e076;
+  color: #edaa44;
 }
 
 .asociate .asociate-formulario #asociate-boton {
@@ -186,7 +165,7 @@ td {
 }
 
 .comollegar {
-  color: #f5e076;
+  color: rgb(247, 227, 147);
   font-family: "Montserrat", sans-serif;
   height: calc(100vh-100);
 }
@@ -200,7 +179,7 @@ td {
 }
 
 .galeria {
-  color: #f5e076;
+  color: rgb(247, 227, 147);
   font-family: "Montserrat", sans-serif;
   height: calc(100vh-100);
   display: grid;
@@ -249,7 +228,7 @@ td {
   background: transparent;
   width: 280px;
   height: 35px;
-  color: #f5e076;
+  color: #edaa44;
   text-align: center;
 }
 .login #login-boton {
