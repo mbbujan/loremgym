@@ -220,16 +220,18 @@ td {
 .galeria section div img {
   margin: 20px;
   transition: 2s;
+  -webkit-box-shadow: 11px 8px 24px 5px rgb(235, 227, 240);
+  -moz-box-shadow: 11px 8px 24px 5px rgb(235, 227, 240);
+  box-shadow: 11px 8px 24px 5px rgbargb(235, 227, 240);
 }
 .galeria section div img:hover {
   transform: scale(1.1);
 }
 
 .login {
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .login #login-boton {
   margin-top: 20px;
@@ -237,10 +239,10 @@ td {
   color: black;
   background-color: whitesmoke;
 }
-.login form input{
-  margin-top: 20px;  
+.login form input {
+  margin-top: 20px;
   background: transparent;
-  width: 280px;    
+  width: 280px;
   height: 35px;
   color: #f5e076;
   text-align: center;
@@ -254,15 +256,14 @@ td {
   background-color: greenyellow;
 }
 
-
-
 /* --------- FOOTER ---------*/
 
 .pie {
   padding-left: 50px;
   padding-top: auto;
   margin-top: 40px;
-  color: #ba9593;
+  /*color: #ba9593;*/
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   background-color: black;
   display: grid;
@@ -296,29 +297,32 @@ td {
 
 /* --------- MQ ---------*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .pie {
     padding-left: 20px;
     padding-top: auto;
     margin-top: 20px;
     font-size: 10px;
   }
-.pie h2{
-  font-size: 10px;
-}
+  .pie h2 {
+    font-size: 15px;
+  }
   .pie .pie-contacto p {
     margin-left: 10px;
   }
   .pie .pie-contacto img {
-    width: 13%;
+    width: 5%;
   }
 
   .pie .pie-redes a img {
-    width: 15%;
+    width: 20%;
   }
 }
 
 @media screen and (max-width: 1020px) {
+  .menu .menu-opciones li {
+    margin: 5px;
+  }
   /* No muestro imagen en pantallas chicas */
   .asociate .asociate-formulario div img {
     display: none;
