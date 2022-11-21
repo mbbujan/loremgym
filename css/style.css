@@ -78,7 +78,7 @@ body {
   color: rgb(247, 227, 147);
 }
 .horarios .horarios-salones,
-.horarios .horarios-grilla{
+.horarios .horarios-grilla {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -132,10 +132,10 @@ td {
 }
 
 .asociate .asociate-formulario form select {
-  margin-left: 20%;
+  /*margin-left: 20%;*/
   background: transparent;
-  width: 50%;
-  max-width: 250px;
+  width: 60%;
+  max-width: 280px;
   height: 35px;
   color: whitesmoke;
   text-align: center;
@@ -143,29 +143,28 @@ td {
 
 .asociate .asociate-formulario form input {
   margin-top: 20px;
-  margin-left: 20%;
+  /*margin-left: 20%;*/
   background: transparent;
   /*width: 280px;  */
-  width: 80%;
+  width: 90%;
   height: 35px;
   text-align: center;
 }
 
 .asociate .asociate-formulario form textarea {
   margin-top: 20px;
-  margin-left: 20%;
+  /*margin-left: 20%;*/
   background: transparent;
   color: #edaa44;
 }
 
 .asociate .asociate-formulario #asociate-boton {
   margin-top: 20px;
-  margin-left: 20%;
+  /*margin-left: 20%;*/
   border-radius: 15px;
   color: black;
   background-color: whitesmoke;
 }
-
 
 .comollegar {
   color: rgb(247, 227, 147);
