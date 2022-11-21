@@ -70,18 +70,20 @@ body {
   height: 350px;
 }
 .horarios {
-  color: rgb(247, 227, 147);
-  margin-top: 10px;
-  margin-left: 20px;
+  color: #edaa44;
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-flow: column wrap;
 }
 .horarios h2 {
   text-align: center;
+  color: rgb(247, 227, 147);
+}
+.horarios .horarios-salones,
+.horarios .horarios-grilla{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 .horarios .horarios-salones ul {
-  margin: 50px;
   list-style: none;
 }
 
@@ -94,7 +96,7 @@ body {
 
 .horarios .horarios-grilla p {
   font-size: 11px;
-  margin-left: 10px;
+  margin-left: 2%;
 }
 
 .horarios .horarios-grilla table,
@@ -112,28 +114,7 @@ td {
 .horarios .horarios-grilla td {
   text-align: center;
 }
-/*
-.asociate {
-  color: #edaa44;
-  font-family: "Montserrat", sans-serif;
-}
-.asociate h2 {
-  text-align: center;
-  color: rgb(247, 227, 147);
-}
-.asociate .asociate-formulario {
-  display: flex;
-  
-  flex-flow: row-reverse wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
-.asociate .asociate-formulario .asociate-datos{
-  margin: auto;
-  width: 90%;
-  max-width: 250px;
-}*/
 .asociate {
   color: #edaa44;
   font-family: "Montserrat", sans-serif;
