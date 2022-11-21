@@ -243,7 +243,6 @@ td {
 
 .pie {
   padding-left: 50px;
-  padding-top: auto;
   margin-top: 40px;
   /*color: #ba9593;*/
   color: #fff;
@@ -264,6 +263,7 @@ td {
 }
 
 .pie .pie-contacto p {
+  margin: 0;
   margin-left: 10px;
 }
 .pie .pie-contacto img {
@@ -300,8 +300,6 @@ td {
   .pie .pie-redes a img {
     width: 20%;
   }
-
-  
 }
 
 @media screen and (max-width: 1020px) {
@@ -313,5 +311,4 @@ td {
   .asociate .asociate-formulario div img {
     display: none;
   }
-
 }
