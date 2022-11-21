@@ -112,7 +112,28 @@ td {
 .horarios .horarios-grilla td {
   text-align: center;
 }
+/*
+.asociate {
+  color: #edaa44;
+  font-family: "Montserrat", sans-serif;
+}
+.asociate h2 {
+  text-align: center;
+  color: rgb(247, 227, 147);
+}
+.asociate .asociate-formulario {
+  display: flex;
+  
+  flex-flow: row-reverse wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.asociate .asociate-formulario .asociate-datos{
+  margin: auto;
+  width: 90%;
+  max-width: 250px;
+}*/
 .asociate {
   color: #edaa44;
   font-family: "Montserrat", sans-serif;
@@ -130,9 +151,10 @@ td {
 }
 
 .asociate .asociate-formulario form select {
-  margin-left: 100px;
+  margin-left: 20%;
   background: transparent;
-  width: 280px;
+  width: 50%;
+  max-width: 250px;
   height: 35px;
   color: whitesmoke;
   text-align: center;
@@ -140,7 +162,7 @@ td {
 
 .asociate .asociate-formulario form input {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 20%;
   background: transparent;
   /*width: 280px;  */
   width: 80%;
@@ -150,18 +172,19 @@ td {
 
 .asociate .asociate-formulario form textarea {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 20%;
   background: transparent;
   color: #edaa44;
 }
 
 .asociate .asociate-formulario #asociate-boton {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 20%;
   border-radius: 15px;
   color: black;
   background-color: whitesmoke;
 }
+
 
 .comollegar {
   color: rgb(247, 227, 147);
