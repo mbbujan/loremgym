@@ -172,16 +172,11 @@ td {
 
 .comollegar {
   color: rgb(247, 227, 147);
-  font-family: "Montserrat", sans-serif;
-  height: calc(100vh-100);
+  font-family: "Montserrat", sans-serif;  
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
   justify-items: center;
-}
-
-.comollegar h2 {
-  text-align: center;
 }
 
 .comollegar iframe{
