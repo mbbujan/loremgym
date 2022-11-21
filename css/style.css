@@ -94,9 +94,12 @@ body {
   font-size: 15px;
 }
 
+.horarios .horarios-grilla h3{
+  margin-left: 2%;
+}
 .horarios .horarios-grilla p {
   font-size: 11px;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .horarios .horarios-grilla table,
