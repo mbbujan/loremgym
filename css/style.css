@@ -174,15 +174,21 @@ td {
   color: rgb(247, 227, 147);
   font-family: "Montserrat", sans-serif;
   height: calc(100vh-100);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  justify-items: center;
 }
 
-.comollegar section h2 {
+.comollegar h2 {
   text-align: center;
 }
 
-.comollegar section iframe {
-  margin: 50px;
+.comollegar iframe{
+  width: 600px;
+  height: 350px;
 }
+
 
 .galeria {
   color: rgb(247, 227, 147);
@@ -288,6 +294,10 @@ td {
 /* --------- MQ ---------*/
 
 @media screen and (max-width: 768px) {
+  .comollegar iframe{
+    width: 70%;
+    height: 300px;
+  }
   .pie {
     padding-left: 20px;
     padding-top: auto;
