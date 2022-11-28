@@ -1,0 +1,63 @@
+@import "../base/variables";
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    background-color: $color-fondo;
+    
+    .menu-logo{
+      a{
+        img{
+          height: 150px;
+        }
+      }
+    }
+
+    .menu-opciones {
+      display: flex;
+      list-style: none;
+      li{
+        margin: 20px;
+        a{
+          text-decoration: none;
+          color: $color-menu;
+          font-size: $size-letra-menu;
+          font-family: $font-letra;
+          position: relative;
+/*
+          &::before{
+            content: " ";
+            border-bottom: 2px solid $color-animacion;
+            position: absolute;
+            bottom: -10px;
+            width: 10%;
+            opacity: 0;
+            transition: 1s;
+          } */
+
+        }
+      }
+    }
+  }
+  
+
+  .menu .menu-opciones li a:before {
+    content: " ";
+    border-bottom: 2px solid $color-animacion;
+    position: absolute;
+    bottom: -10px;
+    width: 10%;
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  .menu .menu-opciones li a.menu-activo::before,
+  .menu .menu-opciones li a:hover::before {
+    opacity: 1;
+    width: 70%;
+  }
+  

@@ -1,0 +1,38 @@
+/* --------- MQ ---------*/
+@media screen and (max-width: 768px) {
+    .comollegar iframe{
+      width: 70%;
+      height: 300px;
+    }
+    .pie {
+      padding-left: 20px;
+      padding-top: auto;
+      margin-top: 20px;
+      font-size: 10px;
+    }
+    .pie h2 {
+      font-size: 15px;
+    }
+    .pie .pie-contacto p {
+      margin-left: 10px;
+    }
+    .pie .pie-contacto img {
+      width: 5%;
+    }
+  
+    .pie .pie-redes a img {
+      width: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .menu .menu-opciones li {
+      margin: 5px;
+    }
+    /* No muestro imagen en pantallas chicas */
+  
+    .asociate .asociate-formulario div img {
+      display: none;
+    }
+  }
+  

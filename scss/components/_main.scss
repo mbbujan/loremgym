@@ -1,0 +1,220 @@
+@import "../base/variables";
+
+/*****************  INDEX  ****************/
+.hero {
+  font-family: $font-letra;
+  font-size: $size-letra-titulo;
+  color: $color-titulo;
+  text-align: center;
+}
+
+.indice-carrousel {
+  div {
+    div {
+      img {
+        width: 600px;
+        height: 350px;
+      }
+    }
+  }
+}
+
+/**************  ASOCIATE ******************/
+.asociate {
+  margin-left: 20px;
+  color: $color-cuerpo;
+  font-family: $font-letra;
+
+  h2 {
+    text-align: center;
+    color: $color-titulo;
+  }
+
+  .asociate-formulario {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+      form {
+        div {
+          select {
+            background: transparent;
+            width: 90%;
+            height: 35px;
+            color: $color-formulario;
+            text-align: center;
+          }
+        }
+        div {
+          input {
+            margin-top: 20px;
+            background: transparent;
+            width: 90%;
+            height: 35px;
+            text-align: center;
+          }
+        }
+        div {
+          textarea {
+            margin-top: 20px;
+            background: transparent;
+            color: $color-cuerpo;
+          }
+        }
+
+        #asociate-boton {
+          margin-top: 20px;
+          border-radius: 15px;
+          width: 90%;
+            height: 35px;
+          color: $color-fondo;
+          background-color: $color-formulario;
+          transition: 1s ease-in;
+      &:hover {
+        background-color: $color-animacion;
+      }
+        }
+      }
+    }
+  }
+}
+
+/**************  COMO LLEGAR  **************/
+.comollegar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  justify-items: center;
+  h2 {
+    color: $color-titulo;
+    font-family: $font-letra;
+  }
+
+  iframe {
+    width: 600px;
+    height: 350px;
+  }
+}
+
+/**************  GALERIA  ******************/
+.galeria {
+  height: calc(100vh-100);
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  h2 {
+    color: $color-titulo;
+    font-family: $font-letra;
+    text-align: center;
+    grid-column: 1/7;
+  }
+  section {
+    grid-column: 1/7;
+    h3 {
+      color: $color-cuerpo;
+      margin-left: 40px;
+    }
+    div {
+      img {
+        margin: 20px;
+        transition: 2s;
+        box-shadow: 6px 7px 5px -1px rgba(213, 221, 222, 0.58);
+        -webkit-box-shadow: 6px 7px 5px -1px rgba(213, 221, 222, 0.58);
+        -moz-box-shadow: 6px 7px 5px -1px rgba(213, 221, 222, 0.58);
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+/**************  HORARIOS  *****************/
+.horarios {
+  color: $color-cuerpo;
+  font-family: $font-letra;
+
+  h2 {
+    text-align: center;
+    color: $color-titulo;
+  }
+  .horarios-salones {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    ul {
+      list-style: none;
+      li {
+        a {
+          text-decoration: none;
+          color: $color-cuerpo;
+          font-family: $font-letra;
+          font-size: $size-letra-menu;
+        }
+      }
+    }
+  }
+
+  .horarios-grilla {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    div {
+      h3 {
+        margin-left: 2.5%;
+      }
+      p {
+        font-size: $size-letra-cuerpo;
+        margin-left: 3%;
+      }
+      table {
+        color: $color-formulario;
+        border-collapse: collapse;
+        width: 80%;
+        text-align: center;
+
+        tbody {
+          tr {
+            td {
+              border: 1px solid $color-cuerpo;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/**************  LOGIN  ********************/
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  form {
+    div {
+      input {
+        margin-top: 20px;
+        background: transparent;
+        width: 280px;
+        height: 35px;
+        color: $color-cuerpo;
+        text-align: center;
+      }
+    }
+    #login-boton {
+      border-radius: 15px;
+      color: $color-fondo;
+      width: 280px;
+      height: 35px;
+      background-color: $color-formulario;
+      margin: 50px 0px 30px 0px;
+      transition: 1s ease-in;
+      &:hover {
+        background-color: $color-animacion;
+      }
+    }
+  }
+}
