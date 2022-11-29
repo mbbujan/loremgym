@@ -199,18 +199,32 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around; }
-    .horarios .horarios-grilla div h3 {
-      margin-left: 2.5%; }
-    .horarios .horarios-grilla div p {
-      font-size: 11px;
-      margin-left: 3%; }
-    .horarios .horarios-grilla div table {
-      color: whitesmoke;
-      border-collapse: collapse;
-      width: 80%;
-      text-align: center; }
-      .horarios .horarios-grilla div table tbody tr td {
-        border: 1px solid #edaa44; }
+    .horarios .horarios-grilla div {
+      /*
+      table {
+        color: $color-formulario;
+        border-collapse: collapse;
+        width: 80%;
+        text-align: center;
+
+        tbody {
+          tr {
+            td {
+              border: 1px solid $color-cuerpo;
+            }
+          }
+        }
+      }*/ }
+      .horarios .horarios-grilla div h3 {
+        margin-left: 2.5%; }
+      .horarios .horarios-grilla div p {
+        font-size: 11px;
+        margin-left: 3%; }
+      .horarios .horarios-grilla div table {
+        color: whitesmoke; }
+        .horarios .horarios-grilla div table tbody tr td {
+          font-size: 11px;
+          border: 1px solid #edaa44; }
 
 /**************  LOGIN  ********************/
 .login {

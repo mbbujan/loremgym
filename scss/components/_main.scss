@@ -172,6 +172,17 @@
       }
       table {
         color: $color-formulario;
+        tbody {
+          tr {
+            td {
+              font-size: $size-letra-cuerpo;
+              border: 1px solid $color-cuerpo;
+            }
+          }
+        }
+      }/*
+      table {
+        color: $color-formulario;
         border-collapse: collapse;
         width: 80%;
         text-align: center;
@@ -183,7 +194,7 @@
             }
           }
         }
-      }
+      }*/
     }
   }
 }
