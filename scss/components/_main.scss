@@ -40,10 +40,8 @@
       form {
         div {
           select {
-            background: transparent;
             width: 90%;
             height: 35px;
-            color: $color-formulario;
             text-align: center;
           }
         }
@@ -68,13 +66,13 @@
           margin-top: 20px;
           border-radius: 15px;
           width: 90%;
-            height: 35px;
+          height: 35px;
           color: $color-fondo;
           background-color: $color-formulario;
           transition: 1s ease-in;
-      &:hover {
-        background-color: $color-animacion;
-      }
+          &:hover {
+            background-color: $color-animacion;
+          }
         }
       }
     }
@@ -180,7 +178,7 @@
             }
           }
         }
-      }/*
+      } /*
       table {
         color: $color-formulario;
         border-collapse: collapse;

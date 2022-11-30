@@ -112,10 +112,8 @@ body {
     justify-content: space-evenly;
     align-items: center; }
     .asociate .asociate-formulario div form div select {
-      background: transparent;
       width: 90%;
       height: 35px;
-      color: whitesmoke;
       text-align: center; }
     .asociate .asociate-formulario div form div input {
       margin-top: 20px;
