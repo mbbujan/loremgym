@@ -29,7 +29,6 @@
     text-align: center;
     color: $color-titulo;
   }
-
   .asociate-formulario {
     display: flex;
     flex-flow: row-reverse wrap;
@@ -43,26 +42,25 @@
             width: 90%;
             height: 35px;
             text-align: center;
-            background-color: yellow;
-            option {
-              background-color: yellow;
-            }
+            background-color: transparent;  
+            color: $color-formulario;       
           }
         }
         div {
           input {
             margin-top: 20px;
-            background: yellow;
+            background: transparent;
             width: 90%;
             height: 35px;
-            text-align: center;
+            text-align: center;            
           }
         }
         div {
           textarea {
             margin-top: 20px;
             background: transparent;
-            color: $color-cuerpo;
+            color: $color-formulario;
+            resize: none;
           }
         }
 

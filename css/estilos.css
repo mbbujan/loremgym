@@ -105,19 +105,19 @@ body {
       width: 90%;
       height: 35px;
       text-align: center;
-      background-color: yellow; }
-      .asociate .asociate-formulario div form div select option {
-        background-color: yellow; }
+      background-color: transparent;
+      color: whitesmoke; }
     .asociate .asociate-formulario div form div input {
       margin-top: 20px;
-      background: yellow;
+      background: transparent;
       width: 90%;
       height: 35px;
       text-align: center; }
     .asociate .asociate-formulario div form div textarea {
       margin-top: 20px;
       background: transparent;
-      color: #edaa44; }
+      color: whitesmoke;
+      resize: none; }
     .asociate .asociate-formulario div form #asociate-boton {
       margin-top: 20px;
       border-radius: 15px;
@@ -236,6 +236,7 @@ body {
   .pie .pie-redes a img {
     width: 20%; } }
 
+/***** pone menu de salones vertical  en monitores **/
 @media screen and (min-width: 1000px) {
   .horarios {
     display: grid;
