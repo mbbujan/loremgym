@@ -44,7 +44,7 @@
             height: 35px;
             text-align: center;
             background-color: yellow;
-            option{
+            option {
               background-color: yellow;
             }
           }
@@ -135,9 +135,11 @@
 }
 
 /**************  HORARIOS  *****************/
+
 .horarios {
   color: $color-cuerpo;
   font-family: $font-letra;
+
   h2 {
     text-align: center;
     color: $color-titulo;
@@ -148,6 +150,7 @@
       li {
         a {
           text-decoration: none;
+
           color: $color-cuerpo;
           font-family: $font-letra;
           font-size: $size-letra-menu;
@@ -157,8 +160,7 @@
   }
 
   .horarios-grilla {
-    div {  
-       
+    div {
       h3 {
         margin-left: 2.5%;
       }
@@ -166,10 +168,9 @@
         font-size: $size-letra-cuerpo;
         margin-left: 3%;
       }
-      
       table {
         margin: 0 auto;
-        color: $color-formulario;            
+        color: $color-formulario;
         tbody {
           tr {
             td {
@@ -178,7 +179,7 @@
             }
           }
         }
-      } 
+      }
     }
   }
 }
