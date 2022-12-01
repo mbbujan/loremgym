@@ -42,8 +42,11 @@
             width: 90%;
             height: 35px;
             text-align: center;
-            background-color: transparent;  
-            color: $color-formulario;       
+            background-color: black;  
+            color: $color-formulario;     
+            option{
+              color: black;
+            }  
           }
         }
         div {

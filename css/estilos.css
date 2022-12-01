@@ -105,8 +105,10 @@ body {
       width: 90%;
       height: 35px;
       text-align: center;
-      background-color: transparent;
+      background-color: black;
       color: whitesmoke; }
+      .asociate .asociate-formulario div form div select option {
+        color: black; }
     .asociate .asociate-formulario div form div input {
       margin-top: 20px;
       background: transparent;
