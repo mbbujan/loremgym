@@ -198,7 +198,7 @@ body {
     font-size: 11px;
     margin-left: 3%; }
   .horarios .horarios-grilla div table {
-    margin-top: 1%;
+    margin: 0 auto;
     color: whitesmoke; }
     .horarios .horarios-grilla div table tbody tr td {
       font-size: 11px;
