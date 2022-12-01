@@ -143,9 +143,6 @@
     color: $color-titulo;
   }
   .horarios-salones {
-    /*display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;*/
     ul {
       list-style: none;
       li {
@@ -160,10 +157,8 @@
   }
 
   .horarios-grilla {
-    /*display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;*/
-    div {
+    div {  
+       
       h3 {
         margin-left: 2.5%;
       }
@@ -171,8 +166,11 @@
         font-size: $size-letra-cuerpo;
         margin-left: 3%;
       }
+      
       table {
-        color: $color-formulario;
+        margin-top: 1%;
+        color: $color-formulario;   
+        
         tbody {
           tr {
             td {
