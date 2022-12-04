@@ -24,7 +24,6 @@
   margin-left: 20px;
   color: $color-cuerpo;
   font-family: $font-letra;
-
   h2 {
     text-align: center;
     color: $color-titulo;
@@ -42,27 +41,22 @@
             width: 90%;
             height: 35px;
             text-align: center;
-            background-color: black;  
-            color: $color-formulario;     
-            option{
-              color: black;
-            }  
           }
         }
         div {
           input {
             margin-top: 20px;
-            background: transparent;
+            background: 0px;
             width: 90%;
             height: 35px;
-            text-align: center;            
+            text-align: center;
           }
         }
         div {
           textarea {
             margin-top: 20px;
             background: transparent;
-            color: $color-formulario;
+
             resize: none;
           }
         }

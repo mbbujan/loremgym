@@ -9,22 +9,32 @@
     padding-top: auto;
     margin-top: 20px;
     font-size: 10px;
-  }
-  .pie h2 {
-    font-size: 15px;
-  }
-  .pie .pie-contacto p {
-    margin-left: 10px;
-  }
-  .pie .pie-contacto img {
-    width: 5%;
-  }
-
-  .pie .pie-redes a img {
-    width: 20%;
+    div {
+      h2 {
+        font-size: 15px;
+      }
+    }
+    .pie-contacto {
+      div {
+        img {
+          width: 5%;
+        }
+        p {
+          margin-left: 10px;
+        }
+      }
+    }
+    .pie-redes {
+      a {
+        img {
+          width: 20%;
+        }
+      }
+    }
   }
 }
 /***** pone menu de salones vertical  en monitores **/
+
 @media screen and (min-width: 1000px) {
   .horarios {
     display: grid;
@@ -37,7 +47,7 @@
       ul {
         grid-column: 1/2;
         width: 25%;
-        position: fixed; /* Make it stick, even on scroll */
+        position: fixed;
         overflow: auto;
         li {
           margin: 5% 5% 5% 35%;
@@ -47,7 +57,7 @@
         }
       }
     }
-
+    
     .horarios-grilla {
       div {
         grid-column: 1/3;
@@ -58,7 +68,6 @@
           font-size: $size-letra-cuerpo;
           margin-left: 3%;
         }
-
         table {
           margin: 0 auto;
           color: $color-formulario;
@@ -80,9 +89,15 @@
   .menu .menu-opciones li {
     margin: 5px;
   }
-  /* No muestro imagen en pantallas chicas */
 
-  .asociate .asociate-formulario div img {
-    display: none;
+  /********** No muestro imagen en pantallas chicas ********/
+  .asociate {
+    .asociate-formulario {
+      div {
+        img {
+          display: none;
+        }
+      }
+    }
   }
 }

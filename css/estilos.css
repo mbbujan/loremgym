@@ -104,21 +104,16 @@ body {
     .asociate .asociate-formulario div form div select {
       width: 90%;
       height: 35px;
-      text-align: center;
-      background-color: black;
-      color: whitesmoke; }
-      .asociate .asociate-formulario div form div select option {
-        color: black; }
+      text-align: center; }
     .asociate .asociate-formulario div form div input {
       margin-top: 20px;
-      background: transparent;
+      background: 0px;
       width: 90%;
       height: 35px;
       text-align: center; }
     .asociate .asociate-formulario div form div textarea {
       margin-top: 20px;
       background: transparent;
-      color: whitesmoke;
       resize: none; }
     .asociate .asociate-formulario div form #asociate-boton {
       margin-top: 20px;
@@ -229,14 +224,14 @@ body {
     padding-top: auto;
     margin-top: 20px;
     font-size: 10px; }
-  .pie h2 {
-    font-size: 15px; }
-  .pie .pie-contacto p {
-    margin-left: 10px; }
-  .pie .pie-contacto img {
-    width: 5%; }
-  .pie .pie-redes a img {
-    width: 20%; } }
+    .pie div h2 {
+      font-size: 15px; }
+    .pie .pie-contacto div img {
+      width: 5%; }
+    .pie .pie-contacto div p {
+      margin-left: 10px; }
+    .pie .pie-redes a img {
+      width: 20%; } }
 
 /***** pone menu de salones vertical  en monitores **/
 @media screen and (min-width: 1000px) {
@@ -250,7 +245,6 @@ body {
       grid-column: 1/2;
       width: 25%;
       position: fixed;
-      /* Make it stick, even on scroll */
       overflow: auto; }
       .horarios .horarios-salones ul li {
         margin: 5% 5% 5% 35%; }
@@ -273,6 +267,6 @@ body {
 @media screen and (max-width: 1020px) {
   .menu .menu-opciones li {
     margin: 5px; }
-  /* No muestro imagen en pantallas chicas */
+  /********** No muestro imagen en pantallas chicas ********/
   .asociate .asociate-formulario div img {
     display: none; } }
