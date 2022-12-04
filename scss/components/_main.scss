@@ -56,19 +56,18 @@
           textarea {
             margin-top: 20px;
             background: transparent;
-
             resize: none;
           }
         }
 
         #asociate-boton {
           margin-top: 20px;
-          border-radius: 15px;
           width: 90%;
           height: 35px;
-          color: nth($colores,1);
-          background-color: nth($colores,2);
-          transition: 1s ease-in;
+          border-radius: map-get($boton,borde);
+          color: map-get($boton,color-letra);
+          background-color: map-get($boton,color-fondo);
+          transition: map-get($boton,tiempo-animacion);
           &:hover {
             background-color: nth($colores,5);
           }
@@ -195,13 +194,20 @@
       }
     }
     #login-boton {
-      border-radius: 15px;
+      /*border-radius: 15px;
       color: nth($colores,1);
       width: 280px;
       height: 35px;
       background-color: nth($colores,2);
       margin: 50px 0px 30px 0px;
-      transition: 1s ease-in;
+      transition: 1s ease-in;*/
+      width: 280px;
+      height: 35px;
+      margin: 50px 0px 30px 0px;
+      border-radius: map-get($boton,borde);
+      color: map-get($boton,color-letra);   
+      background-color: map-get($boton,color-fondo);      
+      transition: map-get($boton,tiempo-animacion);
       &:hover {
         background-color: nth($colores,5);
       }

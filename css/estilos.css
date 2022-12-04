@@ -11,7 +11,8 @@
     1: 10px
     2: 11px
     3: 15px
-    */
+*/
+/************  MAPAS  **********************/
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +34,8 @@ body {
     1: 10px
     2: 11px
     3: 15px
-    */
+*/
+/************  MAPAS  **********************/
 .pie {
   padding-left: 50px;
   margin-top: 40px;
@@ -72,7 +74,8 @@ body {
     1: 10px
     2: 11px
     3: 15px
-    */
+*/
+/************  MAPAS  **********************/
 .menu {
   display: flex;
   justify-content: space-between;
@@ -121,7 +124,8 @@ body {
     1: 10px
     2: 11px
     3: 15px
-    */
+*/
+/************  MAPAS  **********************/
 /*****************  INDEX  ****************/
 .hero {
   font-family: "Montserrat", sans-serif;
@@ -162,9 +166,9 @@ body {
       resize: none; }
     .asociate .asociate-formulario div form #asociate-boton {
       margin-top: 20px;
-      border-radius: 15px;
       width: 90%;
       height: 35px;
+      border-radius: 15px;
       color: black;
       background-color: whitesmoke;
       transition: 1s ease-in; }
@@ -249,12 +253,19 @@ body {
     color: #edaa44;
     text-align: center; }
   .login form #login-boton {
-    border-radius: 15px;
-    color: black;
+    /*border-radius: 15px;
+      color: nth($colores,1);
+      width: 280px;
+      height: 35px;
+      background-color: nth($colores,2);
+      margin: 50px 0px 30px 0px;
+      transition: 1s ease-in;*/
     width: 280px;
     height: 35px;
-    background-color: whitesmoke;
     margin: 50px 0px 30px 0px;
+    border-radius: 15px;
+    color: black;
+    background-color: whitesmoke;
     transition: 1s ease-in; }
     .login form #login-boton:hover {
       background-color: greenyellow; }

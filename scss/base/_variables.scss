@@ -15,12 +15,20 @@ $colores:
     #edaa44, 
     greenyellow;
 
-    /* tamaños textos:
+/* tamaños textos:
     1: 10px
     2: 11px
     3: 15px
-    */
+*/
 $size-letra:
 10px,
 11px,
 15px;
+
+/************  MAPAS  **********************/
+$boton:(
+    borde: 15px,
+    color-letra: nth($colores,1),
+    color-fondo: nth($colores,2),
+    tiempo-animacion: 1s ease-in,
+)
