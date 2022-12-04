@@ -3,8 +3,8 @@
 /*****************  INDEX  ****************/
 .hero {
   font-family: $font-letra;
-  font-size: nth($size-letra,1);
-  color: nth($colores,3); 
+  font-size: nth($size-letra, 1);
+  color: nth($colores, 3);
   text-align: center;
 }
 
@@ -22,14 +22,14 @@
 /**************  ASOCIATE ******************/
 .asociate {
   margin-left: 20px;
-  color: nth($colores,4);
+  color: nth($colores, 4);
   font-family: $font-letra;
-  h2 {
+  h1 {
     text-align: center;
-    color: nth($colores,3);
+    color: nth($colores, 3);
   }
   .asociate-formulario {
-    @include estructura-flex(flex,row-reverse wrap,space-evenly,center);
+    @include estructura-flex(flex, row-reverse wrap, space-evenly, center);
     div {
       form {
         div {
@@ -60,12 +60,12 @@
           margin-top: 20px;
           width: 90%;
           height: 35px;
-          border-radius: map-get($boton,borde);
-          color: map-get($boton,color-letra);
-          background-color: map-get($boton,color-fondo);
-          transition: map-get($boton,tiempo-animacion);
+          border-radius: map-get($boton, borde);
+          color: map-get($boton, color-letra);
+          background-color: map-get($boton, color-fondo);
+          transition: map-get($boton, tiempo-animacion);
           &:hover {
-            background-color: nth($colores,5);
+            background-color: nth($colores, 5);
           }
         }
       }
@@ -75,10 +75,10 @@
 
 /**************  COMO LLEGAR  **************/
 .comollegar {
-  @include estructura-grid(grid,1fr,2fr);
+  @include estructura-grid(grid, 1fr, 2fr);
   justify-items: center;
-  h2 {
-    color: nth($colores,3);
+  h1 {
+    color: nth($colores, 3);
     font-family: $font-letra;
   }
 
@@ -91,19 +91,17 @@
 /**************  GALERIA  ******************/
 .galeria {
   height: calc(100vh-100);
-  @include estructura-grid(grid,repeat(6, 1fr),auto);
   gap: 10px;
-  h2 {
-    color: nth($colores,3);
+  h1 {
+    color: nth($colores, 3);
     font-family: $font-letra;
     text-align: center;
-    grid-column: 1/7;
   }
   section {
-    grid-column: 1/7;
-    h3 {
-      color: nth($colores,4);
+    h2 {
+      color: nth($colores, 4);
       margin-left: 40px;
+      font-size: nth($size-letra, 4);
     }
     div {
       img {
@@ -122,44 +120,46 @@
 
 /**************  HORARIOS  *****************/
 .horarios {
-  color: nth($colores,4);
-  font-family: $font-letra;
-
-  h2 {
+  @include estructura-grid(grid, 3fr, auto);
+  h1 {
     text-align: center;
-    color: nth($colores,3);
+    color: nth($colores, 3);
+    grid-column: 1/4;
   }
+  color: nth($colores, 4);
+  font-family: $font-letra;
   .horarios-salones {
+    grid-column: 1/3;
     ul {
       list-style: none;
       li {
         a {
           text-decoration: none;
-          color: nth($colores,4);
+          color: nth($colores, 4);
           font-family: $font-letra;
-          font-size: nth($size-letra,3);
+          font-size: nth($size-letra, 3);
         }
       }
     }
   }
-
   .horarios-grilla {
+    grid-column: 2/3;
     div {
-      h3 {
-        margin-left: 2.5%;
+      h2 {
+        font-size: nth($size-letra, 3);
       }
       p {
-        font-size: nth($size-letra,2);
+        font-size: nth($size-letra, 2);
         margin-left: 3%;
       }
       table {
         margin: 0 auto;
-        color: nth($colores,2);
+        color: nth($colores, 2);
         tbody {
           tr {
             td {
-              font-size: nth($size-letra,2);
-              border: 1px solid nth($colores,4);
+              font-size: nth($size-letra, 2);
+              border: 1px solid nth($colores, 4);
             }
           }
         }
@@ -170,7 +170,7 @@
 
 /**************  LOGIN  ********************/
 .login {
-    @include estructura-flex(flex,column wrap,center,center);
+  @include estructura-flex(flex, column wrap, center, center);
   form {
     div {
       input {
@@ -178,7 +178,7 @@
         background: transparent;
         width: 280px;
         height: 35px;
-        color: nth($colores,4);
+        color: nth($colores, 4);
         text-align: center;
       }
     }
@@ -186,12 +186,12 @@
       width: 280px;
       height: 35px;
       margin: 50px 0px 30px 0px;
-      border-radius: map-get($boton,borde);
-      color: map-get($boton,color-letra);   
-      background-color: map-get($boton,color-fondo);      
-      transition: map-get($boton,tiempo-animacion);
+      border-radius: map-get($boton, borde);
+      color: map-get($boton, color-letra);
+      background-color: map-get($boton, color-fondo);
+      transition: map-get($boton, tiempo-animacion);
       &:hover {
-        background-color: nth($colores,5);
+        background-color: nth($colores, 5);
       }
     }
   }
