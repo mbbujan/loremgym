@@ -65,7 +65,7 @@
           margin-left: 2.5%;
         }
         p {
-          font-size: $size-letra-cuerpo;
+          font-size: nth($size-letra,2);
           margin-left: 3%;
         }
         table {
@@ -74,7 +74,7 @@
           tbody {
             tr {
               td {
-                font-size: $size-letra-cuerpo;
+                font-size: nth($size-letra,2);
                 border: 1px solid nth($colores,4);
               }
             }

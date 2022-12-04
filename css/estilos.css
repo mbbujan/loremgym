@@ -1,13 +1,17 @@
-/**************  HEADER  ********************/
-/************  MAIN  **********************/
-/*
-$color-fondo: black;
-$color-menu: whitesmoke;
-$color-titulo: rgb(247, 227, 147);
-$color-cuerpo: #edaa44;
-$color-formulario: whitesmoke;
-$color-animacion: greenyellow;*/
+@charset "UTF-8";
 /************  LISTAS  **********************/
+/* colores:
+    1: fondo
+    2: manu y formularios
+    3: titulo
+    4: cuerpo
+    5: animaciones
+*/
+/* tamaños textos:
+    1: 10px
+    2: 11px
+    3: 15px
+    */
 * {
   margin: 0;
   padding: 0;
@@ -17,16 +21,19 @@ $color-animacion: greenyellow;*/
 body {
   background-color: black; }
 
-/**************  HEADER  ********************/
-/************  MAIN  **********************/
-/*
-$color-fondo: black;
-$color-menu: whitesmoke;
-$color-titulo: rgb(247, 227, 147);
-$color-cuerpo: #edaa44;
-$color-formulario: whitesmoke;
-$color-animacion: greenyellow;*/
 /************  LISTAS  **********************/
+/* colores:
+    1: fondo
+    2: manu y formularios
+    3: titulo
+    4: cuerpo
+    5: animaciones
+*/
+/* tamaños textos:
+    1: 10px
+    2: 11px
+    3: 15px
+    */
 .pie {
   padding-left: 50px;
   margin-top: 40px;
@@ -53,16 +60,19 @@ $color-animacion: greenyellow;*/
     .pie .pie-redes a img {
       width: 15%; }
 
-/**************  HEADER  ********************/
-/************  MAIN  **********************/
-/*
-$color-fondo: black;
-$color-menu: whitesmoke;
-$color-titulo: rgb(247, 227, 147);
-$color-cuerpo: #edaa44;
-$color-formulario: whitesmoke;
-$color-animacion: greenyellow;*/
 /************  LISTAS  **********************/
+/* colores:
+    1: fondo
+    2: manu y formularios
+    3: titulo
+    4: cuerpo
+    5: animaciones
+*/
+/* tamaños textos:
+    1: 10px
+    2: 11px
+    3: 15px
+    */
 .menu {
   display: flex;
   justify-content: space-between;
@@ -99,16 +109,19 @@ $color-animacion: greenyellow;*/
   opacity: 1;
   width: 70%; }
 
-/**************  HEADER  ********************/
-/************  MAIN  **********************/
-/*
-$color-fondo: black;
-$color-menu: whitesmoke;
-$color-titulo: rgb(247, 227, 147);
-$color-cuerpo: #edaa44;
-$color-formulario: whitesmoke;
-$color-animacion: greenyellow;*/
 /************  LISTAS  **********************/
+/* colores:
+    1: fondo
+    2: manu y formularios
+    3: titulo
+    4: cuerpo
+    5: animaciones
+*/
+/* tamaños textos:
+    1: 10px
+    2: 11px
+    3: 15px
+    */
 /*****************  INDEX  ****************/
 .hero {
   font-family: "Montserrat", sans-serif;
