@@ -1,9 +1,9 @@
 .pie {
   padding-left: 50px;
   margin-top: 40px;
-  color: $color-menu;
+  color: nth($colores,2);
   font-family: $font-letra;
-  background-color: $color-fondo;
+  background-color: nth($colores,1);
   display: grid;
   grid-template-columns: 2fr 2.5fr 1fr;
   grid-template-areas: "pie-nombre pie-contacto pie-redes";

@@ -70,12 +70,12 @@
         }
         table {
           margin: 0 auto;
-          color: $color-formulario;
+          color: nth($colores,2);
           tbody {
             tr {
               td {
                 font-size: $size-letra-cuerpo;
-                border: 1px solid $color-cuerpo;
+                border: 1px solid nth($colores,4);
               }
             }
           }

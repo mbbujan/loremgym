@@ -1,5 +1,13 @@
 /**************  HEADER  ********************/
 /************  MAIN  **********************/
+/*
+$color-fondo: black;
+$color-menu: whitesmoke;
+$color-titulo: rgb(247, 227, 147);
+$color-cuerpo: #edaa44;
+$color-formulario: whitesmoke;
+$color-animacion: greenyellow;*/
+/************  LISTAS  **********************/
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +19,14 @@ body {
 
 /**************  HEADER  ********************/
 /************  MAIN  **********************/
+/*
+$color-fondo: black;
+$color-menu: whitesmoke;
+$color-titulo: rgb(247, 227, 147);
+$color-cuerpo: #edaa44;
+$color-formulario: whitesmoke;
+$color-animacion: greenyellow;*/
+/************  LISTAS  **********************/
 .pie {
   padding-left: 50px;
   margin-top: 40px;
@@ -39,6 +55,14 @@ body {
 
 /**************  HEADER  ********************/
 /************  MAIN  **********************/
+/*
+$color-fondo: black;
+$color-menu: whitesmoke;
+$color-titulo: rgb(247, 227, 147);
+$color-cuerpo: #edaa44;
+$color-formulario: whitesmoke;
+$color-animacion: greenyellow;*/
+/************  LISTAS  **********************/
 .menu {
   display: flex;
   justify-content: space-between;
@@ -77,6 +101,14 @@ body {
 
 /**************  HEADER  ********************/
 /************  MAIN  **********************/
+/*
+$color-fondo: black;
+$color-menu: whitesmoke;
+$color-titulo: rgb(247, 227, 147);
+$color-cuerpo: #edaa44;
+$color-formulario: whitesmoke;
+$color-animacion: greenyellow;*/
+/************  LISTAS  **********************/
 /*****************  INDEX  ****************/
 .hero {
   font-family: "Montserrat", sans-serif;

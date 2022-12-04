@@ -1,13 +1,24 @@
-$color-fondo: black;
 $font-letra: "Montserrat", sans-serif;
 /**************  HEADER  ********************/
-$color-menu: whitesmoke;
+
 $size-letra-menu: 15px;
 
 /************  MAIN  **********************/
-$color-titulo: rgb(247, 227, 147);
+
 $size-letra-titulo: 10px;
-$color-cuerpo: #edaa44;
 $size-letra-cuerpo: 11px;
+/*
+$color-fondo: black;
+$color-menu: whitesmoke;
+$color-titulo: rgb(247, 227, 147);
+$color-cuerpo: #edaa44;
 $color-formulario: whitesmoke;
-$color-animacion: greenyellow;
+$color-animacion: greenyellow;*/
+
+/************  LISTAS  **********************/
+$colores:
+    black,
+    whitesmoke,
+    rgb(247, 227, 147),
+    #edaa44,
+    greenyellow;
