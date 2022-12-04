@@ -1,13 +1,11 @@
 .pie {
   padding-left: 50px;
   margin-top: 40px;
-  color: nth($colores,2);
+  color: nth($colores, 2);
   font-family: $font-letra;
-  background-color: nth($colores,1);
-  display: grid;
-  grid-template-columns: 2fr 2.5fr 1fr;
+  background-color: nth($colores, 1);
+  @include estructura-grid(grid, 2fr 2.5fr 1fr, 1);
   grid-template-areas: "pie-nombre pie-contacto pie-redes";
-
   .pie-nombre {
     grid-area: pie-nombre;
   }
@@ -27,7 +25,7 @@
       }
     }
   }
-  
+
   .pie-redes {
     grid-area: pie-redes;
     a {

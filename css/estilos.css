@@ -13,6 +13,7 @@
     3: 15px
 */
 /************  MAPAS  **********************/
+/************  MIXIN  **********************/
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +37,7 @@ body {
     3: 15px
 */
 /************  MAPAS  **********************/
+/************  MIXIN  **********************/
 .pie {
   padding-left: 50px;
   margin-top: 40px;
@@ -44,6 +46,7 @@ body {
   background-color: black;
   display: grid;
   grid-template-columns: 2fr 2.5fr 1fr;
+  grid-template-rows: 1;
   grid-template-areas: "pie-nombre pie-contacto pie-redes"; }
   .pie .pie-nombre {
     grid-area: pie-nombre; }
@@ -76,13 +79,8 @@ body {
     3: 15px
 */
 /************  MAPAS  **********************/
+/************  MIXIN  **********************/
 .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-  position: sticky;
-  top: 0;
   background-color: black; }
   .menu .menu-logo a img {
     height: 150px; }
@@ -126,6 +124,7 @@ body {
     3: 15px
 */
 /************  MAPAS  **********************/
+/************  MIXIN  **********************/
 /*****************  INDEX  ****************/
 .hero {
   font-family: "Montserrat", sans-serif;
@@ -192,8 +191,8 @@ body {
 .galeria {
   height: calc(100vh-100);
   display: grid;
-  grid-template-rows: auto;
   grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
   gap: 10px; }
   .galeria h2 {
     color: #f7e393;
@@ -243,8 +242,9 @@ body {
 /**************  LOGIN  ********************/
 .login {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; }
   .login form div input {
     margin-top: 20px;
     background: transparent;
