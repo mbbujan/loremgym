@@ -236,13 +236,13 @@ body {
     grid-column: 2/3; }
     .horarios .horarios-grilla div h2 {
       font-size: 15px;
-      margin-left: 2%; }
+      margin-left: 2.5%; }
     .horarios .horarios-grilla div p {
       font-size: 11px;
       margin-left: 3%; }
     .horarios .horarios-grilla div table {
       margin: 0 auto;
-      margin-left: 2%;
+      margin-left: 2.5%;
       color: whitesmoke; }
       .horarios .horarios-grilla div table tbody tr td {
         font-size: 11px;
