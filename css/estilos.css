@@ -295,7 +295,7 @@ body {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr); }
-    .horarios h2 {
+    .horarios h1 {
       grid-column: 1/4; }
     .horarios .horarios-salones ul {
       grid-column: 1/2;
