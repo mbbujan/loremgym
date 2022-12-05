@@ -309,7 +309,7 @@ body {
     .horarios .horarios-grilla div {
       grid-column: 1/3; }
       .horarios .horarios-grilla div h2 {
-        margin-left: 2.5%; }
+        margin-left: 3.5%; }
       .horarios .horarios-grilla div p {
         font-size: 11px;
         margin-left: 3%; }
