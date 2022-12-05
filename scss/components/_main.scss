@@ -120,11 +120,12 @@
 
 /**************  HORARIOS  *****************/
 .horarios {
-  @include estructura-grid(grid, 3fr, auto);
+  @include estructura-grid(grid, 3fr, 1fr);
   h1 {
     text-align: center;
     color: nth($colores, 3);
     grid-column: 1/4;
+    
   }
   color: nth($colores, 4);
   font-family: $font-letra;
@@ -147,6 +148,7 @@
     div {
       h2 {
         font-size: nth($size-letra, 3);
+        margin-left: 2%;
       }
       p {
         font-size: nth($size-letra, 2);
@@ -154,6 +156,7 @@
       }
       table {
         margin: 0 auto;
+        margin-left: 2%;
         color: nth($colores, 2);
         tbody {
           tr {

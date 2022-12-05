@@ -42,7 +42,6 @@
     grid-template-columns: repeat(3, 1fr);
     h1 {
       grid-column: 1/4;
-      justify-content: center;
     }
     .horarios-salones {
       ul {
@@ -63,14 +62,14 @@
       div {
         grid-column: 1/3;
         h2 {
-          margin-left: 4%;
+          margin-left: 2.5%;
         }
         p {
           font-size: nth($size-letra,2);
           margin-left: 3%;
         }
         table {
-          margin: 2% auto;
+          margin: 0 auto;
           color: nth($colores,2);
           tbody {
             tr {
