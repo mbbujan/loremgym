@@ -1,13 +1,13 @@
 $font-letra: "Montserrat", sans-serif;
 
-/************  LISTAS  **********************/
-/* colores:
-    1: fondo
-    2: manu y formularios
-    3: titulo
-    4: cuerpo
-    5: animaciones
-*/
+//************  LISTAS  **********************
+// colores:
+//  1: fondo
+//  2: manu y formularios
+//  3: titulo
+//  4: cuerpo
+//  5: animaciones
+//
 $colores:
     black,  
     whitesmoke, 
@@ -15,19 +15,19 @@ $colores:
     #edaa44, 
     greenyellow;
 
-/* tamaños textos:
-    1: 10px
-    2: 11px
-    3: 15px
-    4: 20px
-*/
+//* tamaños textos:
+//  1: 10px
+//  2: 11px
+//  3: 15px
+//  4: 20px
+//
 $size-letra:
 10px,
 11px,
 15px,
 20px;
 
-/************  MAPAS  **********************/
+//************  MAPAS  **********************
 $boton:(
     borde: 15px,
     color-letra: nth($colores,1),
@@ -35,7 +35,7 @@ $boton:(
     tiempo-animacion: 1s ease-in,
 );
 
-/************  MIXIN  **********************/
+//************  MIXIN  **********************
 @mixin estructura-flex($display_flex,$flow,$justify,$align){
     display: $display_flex;
     flex-flow: $flow;

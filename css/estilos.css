@@ -1,20 +1,3 @@
-@charset "UTF-8";
-/************  LISTAS  **********************/
-/* colores:
-    1: fondo
-    2: manu y formularios
-    3: titulo
-    4: cuerpo
-    5: animaciones
-*/
-/* tamaños textos:
-    1: 10px
-    2: 11px
-    3: 15px
-    4: 20px
-*/
-/************  MAPAS  **********************/
-/************  MIXIN  **********************/
 * {
   margin: 0;
   padding: 0;
@@ -24,22 +7,6 @@
 body {
   background-color: black; }
 
-/************  LISTAS  **********************/
-/* colores:
-    1: fondo
-    2: manu y formularios
-    3: titulo
-    4: cuerpo
-    5: animaciones
-*/
-/* tamaños textos:
-    1: 10px
-    2: 11px
-    3: 15px
-    4: 20px
-*/
-/************  MAPAS  **********************/
-/************  MIXIN  **********************/
 .pie {
   padding-left: 50px;
   margin-top: 40px;
@@ -67,22 +34,6 @@ body {
     .pie .pie-redes a img {
       width: 15%; }
 
-/************  LISTAS  **********************/
-/* colores:
-    1: fondo
-    2: manu y formularios
-    3: titulo
-    4: cuerpo
-    5: animaciones
-*/
-/* tamaños textos:
-    1: 10px
-    2: 11px
-    3: 15px
-    4: 20px
-*/
-/************  MAPAS  **********************/
-/************  MIXIN  **********************/
 .menu {
   background-color: black; }
   .menu .menu-logo a img {
@@ -113,22 +64,6 @@ body {
   opacity: 1;
   width: 70%; }
 
-/************  LISTAS  **********************/
-/* colores:
-    1: fondo
-    2: manu y formularios
-    3: titulo
-    4: cuerpo
-    5: animaciones
-*/
-/* tamaños textos:
-    1: 10px
-    2: 11px
-    3: 15px
-    4: 20px
-*/
-/************  MAPAS  **********************/
-/************  MIXIN  **********************/
 /*****************  INDEX  ****************/
 .hero {
   font-family: "Montserrat", sans-serif;
