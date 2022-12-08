@@ -174,13 +174,9 @@ body {
     .horarios .horarios-grilla div table tbody tr td {
       font-size: 11px;
       border: 1px solid #edaa44; }
-  .horarios .horarios-grilla div li {
-    list-style: none; }
-    .horarios .horarios-grilla div li a {
-      text-decoration: none;
-      color: #edaa44;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px; }
+  .horarios .horarios-grilla div a img {
+    width: 2%;
+    margin-left: 85%; }
 
 /**************  LOGIN  ********************/
 .login {
