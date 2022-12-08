@@ -155,28 +155,29 @@ body {
   .horarios h1 {
     text-align: center;
     color: #f7e393; }
-  .horarios .horarios-salones ul {
+  .horarios .horarios-pantalla-chica {
+    display: none; }
+  .horarios .horarios-pantalla-grande .horarios-salones ul {
     list-style: none; }
-    .horarios .horarios-salones ul li a {
+    .horarios .horarios-pantalla-grande .horarios-salones ul li a {
       text-decoration: none;
       color: #edaa44;
       font-family: "Montserrat", sans-serif;
       font-size: 15px; }
-  .horarios .horarios-grilla div h2 {
+  .horarios .horarios-pantalla-grande .horarios-grilla div h2 {
     font-size: 15px;
     margin-left: 13%; }
-  .horarios .horarios-grilla div p {
+  .horarios .horarios-pantalla-grande .horarios-grilla div p {
     font-size: 11px;
     margin-left: 14%; }
-  .horarios .horarios-grilla div table {
+  .horarios .horarios-pantalla-grande .horarios-grilla div a {
+    display: none; }
+  .horarios .horarios-pantalla-grande .horarios-grilla div table {
     margin: 0 auto;
     color: whitesmoke; }
-    .horarios .horarios-grilla div table tbody tr td {
+    .horarios .horarios-pantalla-grande .horarios-grilla div table tbody tr td {
       font-size: 11px;
       border: 1px solid #edaa44; }
-  .horarios .horarios-grilla div a img {
-    width: 2%;
-    margin-left: 85%; }
 
 /**************  LOGIN  ********************/
 .login {
@@ -222,21 +223,18 @@ body {
       width: 20%; } }
 
 @media screen and (max-width: 700px) {
-  .horarios .horarios-salones ul {
-    width: 25%;
-    position: fixed;
-    overflow: auto; }
-    .horarios .horarios-salones ul li {
-      margin: 5% 5% 5% 35%; }
-      .horarios .horarios-salones ul li a {
-        display: block; }
-  .horarios .horarios-grilla div h2 {
-    margin-left: 2.5%; }
-  .horarios .horarios-grilla div p {
-    font-size: 11px;
-    margin-left: 3%; }
-  .horarios .horarios-grilla div table {
-    display: none; } }
+  .horarios .horarios-pantalla-grande {
+    display: none; }
+  .horarios .horarios-pantalla-chica {
+    display: inline; }
+    .horarios .horarios-pantalla-chica li {
+      list-style: none; }
+      .horarios .horarios-pantalla-chica li a {
+        margin-left: 4%;
+        text-decoration: none;
+        color: #edaa44;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px; } }
 
 @media screen and (max-width: 1020px) {
   .menu .menu-opciones li {

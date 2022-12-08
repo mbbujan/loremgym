@@ -36,30 +36,19 @@
 // No muestra tabla de horarios en dispositivos chicos
 @media screen and (max-width: 700px) {
   .horarios {
-    .horarios-salones {
-      ul {
-        width: 25%;
-        position: fixed;
-        overflow: auto;
-        li {
-          margin: 5% 5% 5% 35%;
-          a {
-            display: block;
-          }
-        }
-      }
+    .horarios-pantalla-grande {
+      display: none;
     }
-    .horarios-grilla {
-      div {
-        h2 {
-          margin-left: 2.5%;
-        }
-        p {
-          font-size: nth($size-letra, 2);
-          margin-left: 3%;
-        }
-        table {
-          display: none;
+    .horarios-pantalla-chica {
+      display: inline;
+      li {
+        list-style: none;
+        a {
+          margin-left: 4%;
+          text-decoration: none;
+          color: nth($colores, 4);
+          font-family: $font-letra;
+          font-size: nth($size-letra, 3);
         }
       }
     }

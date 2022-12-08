@@ -126,45 +126,47 @@
   }
   color: nth($colores, 4);
   font-family: $font-letra;
-  .horarios-salones {
-    ul {
-      list-style: none;
-      li {
-        a {
-          text-decoration: none;
-          color: nth($colores, 4);
-          font-family: $font-letra;
-          font-size: nth($size-letra, 3);
-        }
-      }
-    }
+  .horarios-pantalla-chica {
+    display: none;
   }
-  .horarios-grilla {
-    div {
-      h2 {
-        font-size: nth($size-letra, 3);
-        margin-left: 13%;
-      }
-      p {
-        font-size: nth($size-letra, 2);
-        margin-left: 14%;
-      }
-      table {
-        margin: 0 auto;
-        color: nth($colores, 2);
-        tbody {
-          tr {
-            td {
-              font-size: nth($size-letra, 2);
-              border: 1px solid nth($colores, 4);
-            }
+  .horarios-pantalla-grande {
+    .horarios-salones {
+      ul {
+        list-style: none;
+        li {
+          a {
+            text-decoration: none;
+            color: nth($colores, 4);
+            font-family: $font-letra;
+            font-size: nth($size-letra, 3);
           }
         }
       }
-      a {
-        img {
-          width: 2%;
-          margin-left: 85%;
+    }
+    .horarios-grilla {
+      div {
+        h2 {
+          font-size: nth($size-letra, 3);
+          margin-left: 13%;
+        }
+        p {
+          font-size: nth($size-letra, 2);
+          margin-left: 14%;
+        }
+        a {
+          display: none;
+        }
+        table {
+          margin: 0 auto;
+          color: nth($colores, 2);
+          tbody {
+            tr {
+              td {
+                font-size: nth($size-letra, 2);
+                border: 1px solid nth($colores, 4);
+              }
+            }
+          }
         }
       }
     }
