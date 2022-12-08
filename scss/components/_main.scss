@@ -120,17 +120,13 @@
 
 /**************  HORARIOS  *****************/
 .horarios {
-  @include estructura-grid(grid, 3fr, 1fr);
   h1 {
     text-align: center;
     color: nth($colores, 3);
-    grid-column: 1/4;
-    
   }
   color: nth($colores, 4);
   font-family: $font-letra;
   .horarios-salones {
-    grid-column: 1/3;
     ul {
       list-style: none;
       li {
@@ -144,19 +140,17 @@
     }
   }
   .horarios-grilla {
-    grid-column: 2/3;
     div {
       h2 {
         font-size: nth($size-letra, 3);
-        margin-left: 3%;
+        margin-left: 13%;
       }
       p {
         font-size: nth($size-letra, 2);
-        margin-left: 4%;
+        margin-left: 14%;
       }
       table {
         margin: 0 auto;
-        margin-left: 3%;
         color: nth($colores, 2);
         tbody {
           tr {
@@ -167,6 +161,15 @@
           }
         }
       }
+      li{
+        list-style: none;
+        a {
+        text-decoration: none;
+        color: nth($colores, 4);
+        font-family: $font-letra;
+        font-size: nth($size-letra, 3);
+      }
+    } 
     }
   }
 }

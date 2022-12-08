@@ -33,19 +33,11 @@
     }
   }
 }
-/***** pone menu de salones vertical  en monitores **/
-
-@media screen and (min-width: 1000px) {
+// No muestra tabla de horarios en dispositivos chicos
+@media screen and (max-width: 700px) {
   .horarios {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(3, 1fr);
-    h1 {
-      grid-column: 1/4;
-    }
     .horarios-salones {
       ul {
-        grid-column: 1/2;
         width: 25%;
         position: fixed;
         overflow: auto;
@@ -57,28 +49,17 @@
         }
       }
     }
-    
     .horarios-grilla {
       div {
-        grid-column: 1/3;
         h2 {
           margin-left: 2.5%;
         }
         p {
-          font-size: nth($size-letra,2);
+          font-size: nth($size-letra, 2);
           margin-left: 3%;
         }
         table {
-          margin: 0 auto;
-          color: nth($colores,2);
-          tbody {
-            tr {
-              td {
-                font-size: nth($size-letra,2);
-                border: 1px solid nth($colores,4);
-              }
-            }
-          }
+          display: none;
         }
       }
     }

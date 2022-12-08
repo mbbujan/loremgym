@@ -5,7 +5,8 @@
 
 /* Formato letras y fondo de todo el sitio web */
 body {
-  background-color: black; }
+  background-color: black;
+  padding-top: 166px; }
 
 .pie {
   padding-left: 50px;
@@ -149,39 +150,37 @@ body {
 
 /**************  HORARIOS  *****************/
 .horarios {
-  display: grid;
-  grid-template-columns: 3fr;
-  grid-template-rows: 1fr;
   color: #edaa44;
   font-family: "Montserrat", sans-serif; }
   .horarios h1 {
     text-align: center;
-    color: #f7e393;
-    grid-column: 1/4; }
-  .horarios .horarios-salones {
-    grid-column: 1/3; }
-    .horarios .horarios-salones ul {
-      list-style: none; }
-      .horarios .horarios-salones ul li a {
-        text-decoration: none;
-        color: #edaa44;
-        font-family: "Montserrat", sans-serif;
-        font-size: 15px; }
-  .horarios .horarios-grilla {
-    grid-column: 2/3; }
-    .horarios .horarios-grilla div h2 {
-      font-size: 15px;
-      margin-left: 3%; }
-    .horarios .horarios-grilla div p {
+    color: #f7e393; }
+  .horarios .horarios-salones ul {
+    list-style: none; }
+    .horarios .horarios-salones ul li a {
+      text-decoration: none;
+      color: #edaa44;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px; }
+  .horarios .horarios-grilla div h2 {
+    font-size: 15px;
+    margin-left: 13%; }
+  .horarios .horarios-grilla div p {
+    font-size: 11px;
+    margin-left: 14%; }
+  .horarios .horarios-grilla div table {
+    margin: 0 auto;
+    color: whitesmoke; }
+    .horarios .horarios-grilla div table tbody tr td {
       font-size: 11px;
-      margin-left: 4%; }
-    .horarios .horarios-grilla div table {
-      margin: 0 auto;
-      margin-left: 3%;
-      color: whitesmoke; }
-      .horarios .horarios-grilla div table tbody tr td {
-        font-size: 11px;
-        border: 1px solid #edaa44; }
+      border: 1px solid #edaa44; }
+  .horarios .horarios-grilla div li {
+    list-style: none; }
+    .horarios .horarios-grilla div li a {
+      text-decoration: none;
+      color: #edaa44;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px; }
 
 /**************  LOGIN  ********************/
 .login {
@@ -226,36 +225,22 @@ body {
     .pie .pie-redes a img {
       width: 20%; } }
 
-/***** pone menu de salones vertical  en monitores **/
-@media screen and (min-width: 1000px) {
-  .horarios {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(3, 1fr); }
-    .horarios h1 {
-      grid-column: 1/4; }
-    .horarios .horarios-salones ul {
-      grid-column: 1/2;
-      width: 25%;
-      position: fixed;
-      overflow: auto; }
-      .horarios .horarios-salones ul li {
-        margin: 5% 5% 5% 35%; }
-        .horarios .horarios-salones ul li a {
-          display: block; }
-    .horarios .horarios-grilla div {
-      grid-column: 1/3; }
-      .horarios .horarios-grilla div h2 {
-        margin-left: 2.5%; }
-      .horarios .horarios-grilla div p {
-        font-size: 11px;
-        margin-left: 3%; }
-      .horarios .horarios-grilla div table {
-        margin: 0 auto;
-        color: whitesmoke; }
-        .horarios .horarios-grilla div table tbody tr td {
-          font-size: 11px;
-          border: 1px solid #edaa44; } }
+@media screen and (max-width: 700px) {
+  .horarios .horarios-salones ul {
+    width: 25%;
+    position: fixed;
+    overflow: auto; }
+    .horarios .horarios-salones ul li {
+      margin: 5% 5% 5% 35%; }
+      .horarios .horarios-salones ul li a {
+        display: block; }
+  .horarios .horarios-grilla div h2 {
+    margin-left: 2.5%; }
+  .horarios .horarios-grilla div p {
+    font-size: 11px;
+    margin-left: 3%; }
+  .horarios .horarios-grilla div table {
+    display: none; } }
 
 @media screen and (max-width: 1020px) {
   .menu .menu-opciones li {
