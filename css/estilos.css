@@ -12,7 +12,7 @@ body {
   padding-left: 50px;
   margin-top: 40px;
   color: whitesmoke;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cinzel", serif;
   background-color: black;
   display: grid;
   grid-template-columns: 2fr 2.5fr 1fr;
@@ -48,7 +48,7 @@ body {
         text-decoration: none;
         color: whitesmoke;
         font-size: 15px;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Cinzel", serif;
         position: relative; }
 
 .menu .menu-opciones li a:before {
@@ -67,7 +67,7 @@ body {
 
 /*****************  INDEX  ****************/
 .hero {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cinzel", serif;
   font-size: 10px;
   color: #f7e393;
   text-align: center; }
@@ -80,7 +80,7 @@ body {
 .asociate {
   margin-left: 20px;
   color: #edaa44;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Cinzel", serif; }
   .asociate h1 {
     text-align: center;
     color: #f7e393; }
@@ -122,7 +122,7 @@ body {
   justify-items: center; }
   .comollegar h1 {
     color: #f7e393;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Cinzel", serif; }
   .comollegar iframe {
     width: 600px;
     height: 350px; }
@@ -133,7 +133,7 @@ body {
   gap: 10px; }
   .galeria h1 {
     color: #f7e393;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cinzel", serif;
     text-align: center; }
   .galeria section h2 {
     color: #edaa44;
@@ -151,7 +151,7 @@ body {
 /**************  HORARIOS  *****************/
 .horarios {
   color: #edaa44;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Cinzel", serif; }
   .horarios h1 {
     text-align: center;
     color: #f7e393; }
@@ -162,7 +162,7 @@ body {
     .horarios .horarios-pantalla-grande .horarios-salones ul li a {
       text-decoration: none;
       color: #edaa44;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Cinzel", serif;
       font-size: 15px; }
   .horarios .horarios-pantalla-grande .horarios-grilla div h2 {
     font-size: 15px;
@@ -233,7 +233,7 @@ body {
         margin-left: 4%;
         text-decoration: none;
         color: #edaa44;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Cinzel", serif;
         font-size: 15px; } }
 
 @media screen and (max-width: 1020px) {
