@@ -6,7 +6,7 @@
 /* Formato letras y fondo de todo el sitio web */
 body {
   background-color: black;
-  padding-top: 166px; }
+  padding-top: 156px; }
 
 .pie {
   padding-left: 50px;
@@ -157,13 +157,15 @@ body {
     color: #f7e393; }
   .horarios .horarios-pantalla-chica {
     display: none; }
-  .horarios .horarios-pantalla-grande .horarios-salones ul {
-    list-style: none; }
-    .horarios .horarios-pantalla-grande .horarios-salones ul li a {
-      text-decoration: none;
-      color: #edaa44;
-      font-family: "Cinzel", serif;
-      font-size: 15px; }
+  .horarios .horarios-pantalla-grande .horarios-salones {
+    position: fixed; }
+    .horarios .horarios-pantalla-grande .horarios-salones ul {
+      list-style: none; }
+      .horarios .horarios-pantalla-grande .horarios-salones ul li a {
+        text-decoration: none;
+        color: #edaa44;
+        font-family: "Cinzel", serif;
+        font-size: 15px; }
   .horarios .horarios-pantalla-grande .horarios-grilla div h2 {
     font-size: 15px;
     margin-left: 13%; }
