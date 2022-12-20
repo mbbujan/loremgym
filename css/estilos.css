@@ -5,8 +5,7 @@
 
 /* Formato letras y fondo de todo el sitio web */
 body {
-  background-color: black;
-  padding-top: 166px; }
+  background-color: black; }
 
 .pie {
   padding-left: 50px;
@@ -78,8 +77,8 @@ body {
 
 /**************  ASOCIATE ******************/
 .asociate {
+  padding-top: 160px;
   margin-left: 20px;
-  color: #edaa44;
   font-family: "Cinzel", serif; }
   .asociate h1 {
     text-align: center;
@@ -96,12 +95,14 @@ body {
     .asociate .asociate-formulario div form div input {
       margin-top: 20px;
       background: 0px;
+      color: whitesmoke;
       width: 90%;
       height: 35px;
       text-align: center; }
     .asociate .asociate-formulario div form div textarea {
       margin-top: 20px;
       background: transparent;
+      color: whitesmoke;
       resize: none; }
     .asociate .asociate-formulario div form #asociate-boton {
       margin-top: 20px;
@@ -129,6 +130,7 @@ body {
 
 /**************  GALERIA  ******************/
 .galeria {
+  padding-top: 160px;
   height: calc(100vh-100);
   gap: 10px; }
   .galeria h1 {
@@ -193,7 +195,7 @@ body {
     background: transparent;
     width: 280px;
     height: 35px;
-    color: #edaa44;
+    color: whitesmoke;
     font-family: "Cinzel", serif;
     text-align: center; }
   .login form #login-boton {

@@ -21,8 +21,8 @@
 
 /**************  ASOCIATE ******************/
 .asociate {
+  padding-top: 160px;
   margin-left: 20px;
-  color: nth($colores, 4);
   font-family: $font-letra;
   h1 {
     text-align: center;
@@ -43,6 +43,7 @@
           input {
             margin-top: 20px;
             background: 0px;
+            color: nth($colores, 2);
             width: 90%;
             height: 35px;
             text-align: center;
@@ -52,6 +53,7 @@
           textarea {
             margin-top: 20px;
             background: transparent;
+            color: nth($colores, 2);
             resize: none;
           }
         }
@@ -90,6 +92,7 @@
 
 /**************  GALERIA  ******************/
 .galeria {
+  padding-top: 160px;
   height: calc(100vh-100);
   gap: 10px;
   h1 {
@@ -185,7 +188,7 @@
         background: transparent;
         width: 280px;
         height: 35px;
-        color: nth($colores, 4);
+        color: nth($colores, 2);
         font-family: $font-letra;
         text-align: center;
       }
