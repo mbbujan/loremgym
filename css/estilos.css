@@ -6,7 +6,7 @@
 /* Formato letras y fondo de todo el sitio web */
 body {
   background-color: black;
-  padding-top: 156px; }
+  padding-top: 166px; }
 
 .pie {
   padding-left: 50px;
@@ -138,6 +138,7 @@ body {
   .galeria section h2 {
     color: #edaa44;
     margin-left: 40px;
+    font-family: "Cinzel", serif;
     font-size: 20px; }
   .galeria section div img {
     margin: 20px;
@@ -193,12 +194,14 @@ body {
     width: 280px;
     height: 35px;
     color: #edaa44;
+    font-family: "Cinzel", serif;
     text-align: center; }
   .login form #login-boton {
     width: 280px;
     height: 35px;
     margin: 50px 0px 30px 0px;
     border-radius: 15px;
+    font-family: "Cinzel", serif;
     color: black;
     background-color: whitesmoke;
     transition: 1s ease-in; }
